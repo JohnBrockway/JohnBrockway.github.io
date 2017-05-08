@@ -5,6 +5,10 @@ body {
     margin: 0;
 }
 
+#main {
+    transition: margin-left .5s;
+}
+
 #header {
     background-color: black;
     width: 100%;
@@ -12,6 +16,37 @@ body {
     top: 0;
     z-index: 1;
     transition: 0.5s;
+}
+
+#headerList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline;
+	height: 100%;
+}
+
+.headerRight {
+    float:right;
+}
+
+.headerLeft {
+    float:left;
+}
+
+.headerLink {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-family: ‘Lato’, sans-serif;
+    transition: 0.3s;
+}
+
+.headerLink:hover {
+    background-color: #404040;
 }
 
 #overview {
@@ -23,6 +58,15 @@ body {
     padding: 0;
     overflow: hidden;
     transition: 0.5s;
+}
+
+.overview {
+    text-align: center;
+    color: white;
+    word-wrap: break-word;
+    width: 50%;
+    padding-left: 25%;
+    font-family: ‘Lato’, sans-serif;
 }
 
 #contact {
@@ -37,7 +81,7 @@ body {
     transition: 0.5s;
 }
 
-img {
+.contactIcon {
     height: 10%;
     width: 10%;
     position: relative;
@@ -49,45 +93,6 @@ img {
 
 #icon_Email {
     left: 10%;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: inline;
-}
-
-.right {
-    float:right;
-}
-
-.left{
-    float:left;
-}
-
-li a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 12px 25px;
-    text-decoration: none;
-    font-family: ‘Lato’, sans-serif;
-}
-
-li a:hover {
-    background-color: #404040;
-
-}
-
-.overview {
-    text-align: center;
-    color: white;
-    word-wrap: break-word;
-    width: 50%;
-    padding-left: 25%;
-    font-family: ‘Lato’, sans-serif;
 }
 
 #sidenav {
@@ -103,8 +108,8 @@ li a:hover {
     padding-top: 60px;
 }
 
-#sidenav a {
-    padding: 8px 8px 8px 32px;
+.sidenavLink {
+    padding: 8px 8px 8px 8px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
@@ -112,20 +117,11 @@ li a:hover {
     transition: 0.5s;
 }
 
-#main {
-    transition: margin-left .5s;
-}
-
-@media screen and (max-height: 450px) {
-  #sidenav {padding-top: 15px;}
-  #sidenav a {font-size: 18px;}
-}
-
-#sidenav a:hover, .offcanvas a:focus{
+.sidenavLink:hover, .offcanvas a:focus{
     color: #f1f1f1;
 }
 
-#sidenav .closeSidenav {
+#closeSidenav {
     position: absolute;
     top: 0;
     right: 25px;

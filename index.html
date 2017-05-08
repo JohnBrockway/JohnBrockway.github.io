@@ -2,32 +2,34 @@
 <html>
 
   <head>
+  
 	<title>John Brockway</title>
     <link rel="stylesheet" type="text/css" href="mainStyle.css">
+	
   </head>
   
   <body>
   
 	<div id="sidenav">
 	
-		<a href="javascript:closeNav() id="closeSidenav">&times;</a>
-		<a href="#">Home</a>
-		<a href="#">Overview</a>
-		<a href="#">Projects</a>
-		<a href="#">Contact Me</a>
+		<a href="javascript:closeNav()" class="sidenavLink" id="closeSidenav">&times;</a>
+		<a href="#" class="sidenavLink">Home</a>
+		<a href="#" class="sidenavLink">Overview</a>
+		<a href="#" class="sidenavLink">Projects</a>
+		<a href="#" class="sidenavLink">Contact Me</a>
 		
-	</div>
+	</div> <!-- sidenav -->
   
 	<div id="main">
   
 		<div id="header">
 	
-		<ul>
-			<li class="right"><a href="#contact">Contact Me</a></li>
-			<li class="right"><a href="#">Projects</a></li>
-			<li class="right"><a href="#">Overview</a></li>
-			<li class="right"><a href="#">Home</a></li>
-			<li class="left"><a href="javascript:operateNav()" id="openAndCloseNav">&#9776;</a></li>
+		<ul id="headerList">
+			<li class="headerRight"><a href="#contact" class="headerLink">Contact Me</a></li>
+			<li class="headerRight"><a href="#" class="headerLink">Projects</a></li>
+			<li class="headerRight"><a href="#" class="headerLink">Overview</a></li>
+			<li class="headerRight"><a href="#" class="headerLink">Home</a></li>
+			<li class="headerLeft"><a href="javascript:operateNav()" class="headerLink">&#9776;</a></li>
 		</ul>
 	  
 		</div> <!-- header -->
@@ -47,10 +49,11 @@
 		<div id="contact">
 	
 			<a href="https://www.linkedin.com/in/john-brockway-a3313a12b" target="_blank">
-				<img id="icon_LI" src="images/icon_LI.png" alt="LinkedIn Icon">
+				<img src="images/icon_LI.png" class="contactIcon" id="icon_LI" alt="LinkedIn Icon">
 			</a>
+			
 			<a href="mailto:john.c.brockway@gmail.com" target="_blank">
-				<img id="icon_Email" src="images/icon_Email.png" alt="Email Icon">
+				<img src="images/icon_Email.png" class="contactIcon" id="icon_Email" alt="Email Icon">
 			</a>
 	  
 		</div> <!-- contact -->
@@ -60,6 +63,6 @@
 	<script src="mainScript.js"></script>
 	
   </body>
-  
+
 </html>
 <!-- John Brockway, 2017 -->
