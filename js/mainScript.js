@@ -14,6 +14,7 @@ function openNav() {
 	document.getElementById("header").style.width = "85%";
 	document.getElementById("contact").style.width = "85%";
     document.getElementById("main").style.marginLeft = "15%";
+	document.getElementById("openAndCloseNav").innerHTML="&times;";
 }
 
 function closeNav() {
@@ -23,4 +24,5 @@ function closeNav() {
 	document.getElementById("header").style.width = "100%";
 	document.getElementById("contact").style.width = "100%";
     document.getElementById("main").style.marginLeft = "0px";
+	document.getElementById("openAndCloseNav").innerHTML="&#x2261;";
 }
