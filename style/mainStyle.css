@@ -51,7 +51,7 @@ body {
 
 #overview {
     position: absolute;
-    background-image: url("../images/black.png");
+    background-color: black;
     text-align: center;
     top: 50%;
     width: 100%;
@@ -70,7 +70,7 @@ body {
 
 #contact {
     position: absolute;
-    background-image: url("../images/black.png");
+    background-color: black;
     text-align: center;
     top: 150%;
     width: 100%;
