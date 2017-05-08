@@ -42,7 +42,6 @@ body {
     text-align: center;
     padding: 12px 25px;
     text-decoration: none;
-    font-family: ‘Lato’, sans-serif;
     transition: 0.3s;
 }
 
@@ -67,7 +66,6 @@ body {
     word-wrap: break-word;
     width: 50%;
     padding-left: 25%;
-    font-family: ‘Lato’, sans-serif;
 }
 
 #contact {
@@ -83,23 +81,32 @@ body {
 }
 
 .contactLink {
-    height: 5%;
-    width: 5%;
-    position: relative;
+    height: 10%;
+    width: 10%;
 }
 
-#link_LI {
-    left: -10%;
+#linkedIn {
+	width: 33%;
+	float: left;
 }
 
-#link_Email {
-    left: 10%;
+#email {
+	width: 33%;
+	float: left;
+}
+
+#github {
+	width: 33%;
+	float: left;
 }
 
 .contactIcon {
-    height: 5%;
-    width: 5%;
-    position: relative;
+    height: 10%;
+    width: 10%;
+}
+
+.contactLabel {
+    color: white;
 }
 
 #sidenav {
