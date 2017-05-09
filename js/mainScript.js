@@ -10,9 +10,7 @@ function operateNav() {
 function openNav() {
     document.getElementById("sidenav").style.width = "15%";
 	document.getElementById("main").style.width = "85%";
-	document.getElementById("overview").style.width = "85%";
 	document.getElementById("header").style.width = "85%";
-	document.getElementById("contact").style.width = "85%";
     document.getElementById("main").style.marginLeft = "15%";
 	document.getElementById("openAndCloseNav").innerHTML="&times;";
 }
@@ -20,9 +18,7 @@ function openNav() {
 function closeNav() {
     document.getElementById("sidenav").style.width = "0px";
 	document.getElementById("main").style.width = "100%";
-	document.getElementById("overview").style.width = "100%";
 	document.getElementById("header").style.width = "100%";
-	document.getElementById("contact").style.width = "100%";
     document.getElementById("main").style.marginLeft = "0px";
 	document.getElementById("openAndCloseNav").innerHTML="&#x2261;";
 }
