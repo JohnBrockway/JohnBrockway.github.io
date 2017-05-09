@@ -1,13 +1,13 @@
-body {
-    background-image: url("../images/AnyWayButThis.jpg");
-    background-size: cover;
-	background-position: center;
-    background-attachment:fixed;
+body, html {
+    height: 100%;
     margin: 0;
+	font: 400 15px/1.8 "Lato", sans-serif;
+    transition: 0.5s;
 }
 
 #main {
     transition: margin-left .5s;
+	height: 100%;
 }
 
 #header {
@@ -49,11 +49,41 @@ body {
     background-color: #404040;
 }
 
+.imageDiv {
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    transition: 0.5s;
+}
+
+#splashPage {
+	background-image: url("../images/AuraAndDemeter.jpg");
+	height: 100%;
+}
+
+#nameDiv {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+    transition: 0.5s;
+}
+
+#name {
+	background-color: #111;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+}
+
 #overview {
-    position: absolute;
     background-color: black;
     text-align: center;
-    top: 50%;
     width: 100%;
     padding: 0;
     overflow: hidden;
@@ -68,11 +98,15 @@ body {
     padding-left: 25%;
 }
 
+#secondImage {
+	background-image: url("../images/GreenerOnTheOtherSide.jpg");
+	height: 100%;
+}
+
 #contact {
     position: absolute;
     background-color: black;
     text-align: center;
-    top: 150%;
     width: 100%;
     padding-top: 2%;
     padding-bottom: 2%;
