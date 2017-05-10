@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
-	font: 400 15px/1.8 "Lato", sans-serif;
+	font: 15px "Lato", sans-serif;
     transition: 0.5s;
 }
 
@@ -43,7 +43,7 @@ body, html {
     text-align: center;
     padding: 12px 25px;
     text-decoration: none;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .headerLink:hover {
@@ -118,17 +118,7 @@ body, html {
     width: 10%;
 }
 
-#linkedIn {
-	width: 33%;
-	float: left;
-}
-
-#email {
-	width: 33%;
-	float: left;
-}
-
-#github {
+.contactContainer {
 	width: 33%;
 	float: left;
 }
@@ -149,7 +139,7 @@ body, html {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: black;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -158,12 +148,11 @@ body, html {
 .sidenavLink {
     padding: 8px 8px 8px 8px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    color: white;
     display: block;
     transition: 0.5s;
 }
 
 .sidenavLink:hover, .offcanvas a:focus{
-    color: #f1f1f1;
+    color: #404040;
 }
