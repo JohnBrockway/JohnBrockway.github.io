@@ -47,7 +47,8 @@ body, html {
 }
 
 .headerLink:hover {
-    background-color: #404040;
+	color: black;
+    background-color: white;
 }
 
 .imageDiv {
@@ -154,5 +155,6 @@ body, html {
 }
 
 .sidenavLink:hover, .offcanvas a:focus{
-    color: #404040;
+    color: black;
+	background-color: white;
 }
