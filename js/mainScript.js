@@ -9,9 +9,9 @@ function operateNav() {
 
 function openNav() {
     document.getElementById("sidenav").style.width = "15%";
+    document.getElementById("main").style.marginLeft = "15%";
 	document.getElementById("main").style.width = "85%";
 	document.getElementById("header").style.width = "85%";
-    document.getElementById("main").style.marginLeft = "15%";
 	document.getElementById("openAndCloseNav").innerHTML="&times;";
 }
 
