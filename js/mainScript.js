@@ -12,7 +12,6 @@ function openNav() {
     document.getElementById("main").style.marginLeft = "15%";
 	document.getElementById("main").style.width = "85%";
 	document.getElementById("header").style.width = "85%";
-	document.getElementsByClassName("overview").style.width = "42.5%";
 	document.getElementById("openAndCloseNav").innerHTML="&times;";
 }
 
