@@ -17,8 +17,8 @@ function openNav() {
 
 function closeNav() {
     document.getElementById("sidenav").style.width = "0px";
+    document.getElementById("main").style.marginLeft = "0px";
     document.getElementById("main").style.width = "100%";
     document.getElementById("header").style.width = "100%";
-    document.getElementById("main").style.marginLeft = "0px";
     document.getElementById("openAndCloseNav").innerHTML="&#x2261;";
 }
