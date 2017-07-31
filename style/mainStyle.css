@@ -1,14 +1,14 @@
 body, html {
     height: 100%;
     margin: 0;
-	font: 15px "Lato", sans-serif;
+    font: 15px "Lato", sans-serif;
     transition: 0.5s;
 }
 
 #main {
     transition: 0.5s;
-	height: 100%;
-	width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 #header {
@@ -26,7 +26,7 @@ body, html {
     padding: 0;
     overflow: hidden;
     display: inline;
-	height: 100%;
+    height: 100%;
 }
 
 .headerRight {
@@ -47,39 +47,39 @@ body, html {
 }
 
 .headerLink:hover {
-	color: black;
+    color: black;
     background-color: white;
 }
 
 .imageDiv {
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     transition: 0.5s;
 }
 
 #splashPage {
-	background-image: url("../images/AuraAndDemeter.jpg");
-	height: 100%;
+    background-image: url("../images/AuraAndDemeter.jpg");
+    height: 100%;
 }
 
 #nameDiv {
-	position: relative;
-	left: 0;
-	top: 50%;
-	width: 100%;
-	text-align: center;
-	color: #000;
+    position: relative;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
     transition: 0.5s;
 }
 
 #name {
-	background-color: #111;
-	color: #fff;
-	padding: 18px;
-	font-size: 25px;
-	letter-spacing: 10px;
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
 }
 
 #overview {
@@ -100,8 +100,8 @@ body, html {
 }
 
 #secondImage {
-	background-image: url("../images/GreenerOnTheOtherSide.jpg");
-	height: 100%;
+    background-image: url("../images/GreenerOnTheOtherSide.jpg");
+    height: 100%;
 }
 
 #contact {
@@ -120,8 +120,8 @@ body, html {
 }
 
 .contactContainer {
-	width: 33%;
-	float: left;
+    width: 33%;
+    float: left;
 }
 
 .contactIcon {
@@ -156,5 +156,5 @@ body, html {
 
 .sidenavLink:hover, .offcanvas a:focus{
     color: black;
-	background-color: white;
+    background-color: white;
 }
