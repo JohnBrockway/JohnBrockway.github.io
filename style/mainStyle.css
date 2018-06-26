@@ -1,12 +1,11 @@
 body, html {
     height: 100%;
     margin: 0;
-    font: 15px "Lato", sans-serif;
-    transition: 0.5s;
+    font-family: "Open Sans", "Lato", sans-serif;
+    font-size: 15px;
 }
 
 #main {
-    transition: 0.5s;
     height: 100%;
     width: 100%;
 }
@@ -17,7 +16,6 @@ body, html {
     position: fixed;
     top: 0;
     z-index: 1;
-    transition: 0.5s;
 }
 
 #headerList {
@@ -29,12 +27,8 @@ body, html {
     height: 100%;
 }
 
-.headerRight {
+.headerItem {
     float:right;
-}
-
-.headerLeft {
-    float:left;
 }
 
 .headerLink {
@@ -43,7 +37,6 @@ body, html {
     text-align: center;
     padding: 12px 25px;
     text-decoration: none;
-    transition: 0.5s;
 }
 
 .headerLink:hover {
@@ -56,11 +49,10 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    transition: 0.5s;
 }
 
 #splashPage {
-    background-image: url("../images/AuraAndDemeter.jpg");
+    background-image: url("../images/LivingArch.jpg");
     height: 100%;
 }
 
@@ -71,7 +63,6 @@ body, html {
     width: 100%;
     text-align: center;
     color: #000;
-    transition: 0.5s;
 }
 
 #name {
@@ -88,7 +79,6 @@ body, html {
     width: 100%;
     padding: 0;
     overflow: hidden;
-    transition: 0.5s;
 }
 
 .overview {
@@ -111,7 +101,6 @@ body, html {
     padding-top: 2%;
     padding-bottom: 2%;
     overflow: hidden;
-    transition: 0.5s;
 }
 
 .contactLink {
@@ -131,30 +120,4 @@ body, html {
 
 .contactLabel {
     color: white;
-}
-
-#sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: black;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-.sidenavLink {
-    padding: 8px 8px 8px 8px;
-    text-decoration: none;
-    color: white;
-    display: block;
-    transition: 0.5s;
-}
-
-.sidenavLink:hover, .offcanvas a:focus{
-    color: black;
-    background-color: white;
 }
