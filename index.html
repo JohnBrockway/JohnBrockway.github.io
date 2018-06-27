@@ -3,71 +3,60 @@
 
     <head>
         <title>John Brockway</title>
+
         <link rel="stylesheet" type="text/css" href="style/mainStyle.css">
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" />
-        <link rel="icon" href="images/favicon.ico"
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/solid.css" integrity="sha384-TbilV5Lbhlwdyc4RuIV/JhD8NR+BfMrvz4BL5QFa2we1hQu6wvREr3v6XSRfCTRp" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/brands.css" integrity="sha384-7xAnn7Zm3QC1jFjVc1A6v/toepoG3JXboQYzbM0jrPzou9OFXm/fY6Z/XiIebl/k" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css" integrity="sha384-ozJwkrqb90Oa3ZNb+yKFW2lToAWYdTiF1vt8JiH5ptTGHTGcN7qdoR1F95e0kYyG" crossorigin="anonymous">
+
+        <link rel="icon" href="images/favicon.ico" />
     </head>
 
     <body>
 
-        <div id="main">
+        <div id="header">
+            <a href="docs/JohnBrockwayResume.pdf" target="_blank" class="headerLink">Resume</a>
+            <a href="#" class="headerLink">Projects</a>
+        </div>
 
-            <div id="header">
-                <ul id="headerList">
-                    <li class="headerItem"><a href="#contact" class="headerLink">Contact Me</a></li>
-                    <li class="headerItem"><a href="#" class="headerLink">Projects</a></li>
-                    <li class="headerItem"><a href="#" class="headerLink">Overview</a></li>
-                    <li class="headerItem"><a href="#" class="headerLink">Home</a></li>
-                </ul>
-            </div>
+        <div id="main">       
 
-            <div class="imageDiv" id="splashPage">
-                <div id="nameDiv">
-                    <span id="name">John Brockway</span>
-                </div>
-            </div>
-
-            <div id="overview">
-                <p class="overview">A Computer Science major at the University Of Waterloo, 
-                                    with experience in multiple languages and technologies, 
-                                    and an enthusiasm to learn any of those not yet seen. Have
-                                    a look at some of my projects, check out my LinkedIn page
-                                    for a more detailed resumé, or email me directly with any
-                                    opportunities!</p>
-            </div>
-
-            <div class="imageDiv" id="secondImage"></div>
-
+            <p class="overview">A Computer Science major at the University Of Waterloo 
+                                with experience in many languages and technologies, 
+                                and an enthusiasm to learn any of those not yet seen. Have
+                                a look at my 
+                                <a href="docs/JohnBrockwayResume.pdf" target="_blank">online resume</a>
+                                 for a more detailed listing of my skills and experience.
+                                Or, browse through my projects or contact me for more detailed
+                                information.
+            </p> 
+            
             <div id="contact">
 
                 <div class="contactContainer">
-                    <a href="https://www.linkedin.com/in/john-brockway-a3313a12b" target="_blank" class="contactLink" id="link_LI">
-                    <img src="images/icon_LI.png" class="contactIcon" id="icon_LI" alt="LinkedIn Icon">
+                    <a href="https://www.linkedin.com/in/john-brockway-a3313a12b" target="_blank" class="contactLink">
+                        <i class="fab fa-linkedin contactIcon" aria-hidden="true"></i>
+                        <p class="contactLabel" id="label_LI">Connect with me on LinkedIn</p>
                     </a>
-                    <p class="contactLabel" id="label_LI">Connect with me on LinkedIn</p>
                 </div>
-
+        
                 <div class="contactContainer">
-                    <a href="mailto:john.c.brockway@gmail.com" class="contactLink" id="link_Email">
-                    <img src="images/icon_Email.png" class="contactIcon" id="icon_Email" alt="Email Icon">
+                    <a href="mailto:john.c.brockway@gmail.com" class="contactLink">
+                        <i class="fas fa-envelope contactIcon" aria-hidden="true"></i>
+                        <p class="contactLabel" id="label_Email">Email me at john.c.brockway@gmail.com</p>
                     </a>
-                    <p class="contactLabel" id="label_Email">Email me at john.c.brockway@gmail.com</p>
                 </div>
-
+        
                 <div class="contactContainer">
-                    <a href="https://github.com/JohnBrockway" target="_blank" class="contactLink" id="link_GitHub">
-                    <img src="images/icon_GitHub.png" class="contactIcon" id="icon_GitHub" alt="GitHub Icon">
+                    <a href="https://github.com/JohnBrockway" target="_blank" class="contactLink">
+                        <i class="fab fa-github contactIcon" aria-hidden="true"></i>  
+                        <p class="contactLabel" id="label_GitHub">Check out my Github profile</p>
                     </a>
-                    <p class="contactLabel" id="label_GitHub">Check out my Github profile</p>
                 </div>
-
+        
             </div>
-
         </div>
-
-        <script src="js/mainScript.js"></script>
-
     </body>
-
 </html>
-<!-- John Brockway, 2017 -->
+<!-- John Brockway, 2018 -->
