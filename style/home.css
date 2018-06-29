@@ -4,40 +4,6 @@ body, html {
     font-family: "Open Sans", "Lato", sans-serif;
 }
 
-#header {
-    position: fixed;
-    right: 10px;
-    top: 0;
-    z-index: 1;
-}
-
-.headerLink {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 12px 25px;
-    text-decoration: none;
-    text-shadow:
-        -1px -1px 5px #222,  
-        1px -1px 5px #222,
-        -1px 1px 5px #222,
-        1px 1px 5px #222;
-    font-weight: 500;
-    font-size: 17px;
-    transition: 0.3s;
-}
-
-.headerLink:hover {
-    color: black;
-    text-shadow:
-        -1px -1px 5px #DDD,  
-        1px -1px 5px #DDD,
-        -1px 1px 5px #DDD,
-        1px 1px 5px #DDD;
-    font-weight: 700;
-}
-
 #main:before {
     content: "";
     position: fixed;
@@ -65,12 +31,9 @@ body, html {
 .overview {
     margin: 0;
     position: relative;
-    top: 40%;
     text-align: center;
     color: white;
     word-wrap: break-word;
-    width: 50%;
-    padding-left: 25%;
     text-shadow:
         -1px -1px 5px #222,  
         1px -1px 5px #222,
@@ -112,7 +75,6 @@ body, html {
 }
 
 .contactIcon {
-    font-size: 50px;
     text-shadow: 0px 0px 10px #222;
 }
 

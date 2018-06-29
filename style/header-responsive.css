@@ -1,0 +1,87 @@
+/* Larger screens */
+@media only screen and (min-device-width: 800px) {
+    #header {
+        right: 10px;
+    }
+
+    .headerLink {
+        float: left;
+        padding: 12px 25px;
+        text-decoration: none;
+        text-shadow:
+            -1px -1px 5px #222,
+            1px -1px 5px #222,
+            -1px 1px 5px #222,
+            1px 1px 5px #222;
+        font-size: 17px;
+    }
+
+    .headerLink:hover {
+        color: black;
+        text-shadow:
+            -1px -1px 5px #DDD,  
+            1px -1px 5px #DDD,
+            -1px 1px 5px #DDD,
+            1px 1px 5px #DDD;
+        font-weight: 700;
+    }
+
+    #sidenavHandle {
+        display: none;
+    }
+}
+
+/* Tablets and phones */
+@media only screen and (max-device-width: 800px) {
+    #header {
+        padding-top: 35px;
+        height: 100%;
+        overflow: hidden;
+        background-color: #444;
+        left: 0;
+        transition: 0.3s;
+        box-shadow: 0;
+    }
+
+    .headerCollapsed {
+        width: 0;
+        box-shadow: 0 0 0 0;
+    }
+
+    .headerOpen {
+        width: 70%;
+        box-shadow: 8px 0px 125px 50px black;
+    }
+
+    .headerLink {
+        padding: 35px 25px;
+        text-decoration: none;
+        font-size: 45px;
+    }
+
+    #sidenavHandle {
+        position: fixed;
+        top: 75px;
+        border-radius: 0 25px 25px 0;
+        z-index: 1;
+        box-shadow: 20px 0px 75px 10px black;
+        transition: 0.3s;
+    }
+
+    .headerCollapsed #sidenavHandle {
+        left: 0;
+        background-color: #444;
+    }
+
+    .headerOpen #sidenavHandle {
+        left: 70%;
+        background-color: #666;
+    }
+
+    #sidenavHandle i {
+        color: white;
+        margin: auto;
+        font-size: 50px;
+        padding: 100px 30px;
+    }
+}
